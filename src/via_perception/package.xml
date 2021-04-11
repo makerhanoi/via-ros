@@ -2,7 +2,7 @@
 <package format="2">
     <name>via_perception</name>
     <version>0.0.1</version>
-    <description>An image publisher for images contained in a folder.</description>
+    <description>Default perception models and algorithms for VIA Bots.</description>
 
     <license>MIT</license>
 

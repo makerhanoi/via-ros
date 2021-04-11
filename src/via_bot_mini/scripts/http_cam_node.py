@@ -16,7 +16,7 @@ CAM_URL = "http://192.168.4.1:81/stream"
 
 class VIACamDriver:
     def __init__(self):
-        self.__app_name = "via_cam_driver"
+        self.__app_name = "via_http_cam"
 
         self._cv_bridge = CvBridge()
 
@@ -65,7 +65,7 @@ class VIACamDriver:
 
 
 def main(args):
-    rospy.init_node('via_cam_driver', anonymous=True)
+    rospy.init_node('via_http_cam_node', anonymous=True)
 
     image_publisher = VIACamDriver()
     image_publisher.run()

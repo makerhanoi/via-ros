@@ -2,9 +2,9 @@
 <package format="2">
     <name>via_bot_mini</name>
     <version>0.0.1</version>
-    <description>An image publisher for images contained in a folder.</description>
+    <description>Motors and camera drivers for VIA Bot Mini.</description>
 
-    <license>BSD</license>
+    <license>MIT</license>
 
     <author  email="vietanh.dev@gmail.com">Viet-Anh Nguyen</author >
     <maintainer email="vietanh.dev@gmail.com">Viet-Anh Nguyen</maintainer>

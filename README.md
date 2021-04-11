@@ -16,10 +16,10 @@
 roscore
 ```
 
-- **2. HTTP Camera Driver (to capture images from VIA Bot Mini)**
+- **2. HTTP Camera Driver (capture images from VIA Bot Mini)**
 
 ```
-rosrun via_cam_driver http_cam_de.py
+rosrun via_bot_mini http_cam_node.py
 ```
 
 - **3. Lane detection node**
@@ -34,7 +34,7 @@ rosrun via_perception lane_detection_node.py
 rosrun via_perceptionraffic_sign_detection_node.py
 ```
 
-- **5. Drive node**
+- **5. Drive node (input control signals to VIA Bot Mini)**
 
 ```
 rosrun via_bot_mini via_bot_mini_chassis.py
